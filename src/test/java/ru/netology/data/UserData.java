@@ -40,11 +40,11 @@ public class UserData {
     }
 
     public static int balanceMinusAmount(int balance, int amount) {
-        int BalanceMinus = balance - amount;
-        if (BalanceMinus < 0) {
+        int balanceMinus = balance - amount;
+        if (balanceMinus < 0) {
             return balance;
         }
-        return BalanceMinus;
+        return balanceMinus;
     }
 
     public static int balancePlusAmount(int balance, int amount) {
